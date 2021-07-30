@@ -2,5 +2,14 @@ body
     {
         background: #2626a6;
         color: WHITE ;
-        font-family: Sans;    
+        font-family: Sans;
     }
+
+.grid-container
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px; /* marco */ 
+    background-color: red;
+    padding: 10px; /* marco */
+}
