@@ -1,7 +1,7 @@
 body
     {
-        background: Yellow;
-        color: WHITE ;
+        background: FloralWhite;
+        color: maroon ;
         font-family: Sans;
     }
 
@@ -9,7 +9,11 @@ body
 {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 10px; /* marco */ 
-    background-color: red;
-    padding: 10px; /* marco */
+    grid-gap: 20px; /* grosor de las grillas, no borde del contenedor */ 
+    background-color: LightSkyBlue;
+    padding: 50px; /* marco */
+}
+.buttons
+{
+	
 }
