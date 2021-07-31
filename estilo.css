@@ -8,7 +8,8 @@ body
 .grid-container
 {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-auto-flow: dense ;
+    grid-template-columns: repeat(auto-fit,minmax(min(100%,15rem),1fr));
     grid-gap: 20px; /* grosor de las grillas, no borde del contenedor */ 
     background-color: LightSkyBlue;
     padding: 50px; /* marco */
