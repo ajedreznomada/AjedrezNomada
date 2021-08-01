@@ -9,11 +9,18 @@ body
 {
     display: grid;
     grid-auto-flow: dense ;
-    grid-template-columns: repeat(auto-fit,minmax(min(100%,15rem),1fr));
+    grid-template-columns: /*25% 1fr;*/ repeat(auto-fit,minmax(min(100%,15rem),1fr));
     grid-gap: 20px; /* grosor de las grillas, no borde del contenedor */ 
     background-color: LightSkyBlue;
     padding: 50px; /* marco */
+    text-align: center;
 }
+img
+    	{
+    	width:100%;
+    	height:100%;
+    	object-fit:cover;
+    	}
 .buttons
 {
 	
