@@ -1,13 +1,14 @@
 html {
   box-sizing: border-box;
-  margin-top: 0px;
+  background-color: lightskyblue;
 }
 
 body {
-  background: FloralWhite;
-  color: maroon;
+  /* background: FloralWhite; */
+  /* background-size: 100vh; */
+  /* color: maroon; */
   font-family: Sans;
-  margin-top: 0px;
+  margin: 0;
 }
 
 .grid-container {
@@ -18,7 +19,7 @@ body {
     minmax(min(100%, 15rem), 1fr)
   );
   grid-gap: 20px; /* grosor de las grillas, no borde del contenedor */
-  background-color: LightSkyBlue;
+  /* background-color: LightSkyBlue; */
   padding: 50px; /* marco */
   text-align: center;
 }
