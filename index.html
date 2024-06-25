@@ -1,54 +1,75 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="es">
 <head>
-    <title>Ajedrez Nómada</title>
-    <meta charset=utf-8>
-    <!-- <link rel="stylesheet" type="text/css" href="normalize.css"> -->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club de Ajedrez</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
-
 <body>
+    <header>
+        <h1>Club de Ajedrez</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#eventos">Eventos</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <div class="grid-container">
-        <div class="buttons">
+    <main>
+        <section id="inicio">
+            <h2>Bienvenidos al Club de Ajedrez</h2>
+            <p>Descripción breve del club y su misión.</p>
+            <i class="fas fa-chess-knight horse-animation"></i>
+        </section>
 
-            <div>
-                <a href="./Curvas JS y Canva/index.html">
-                    <input type="button" value="Curvas JS y Etiqueta Canva">
-                </a>
-            </div>
+        <section id="nosotros">
+            <h2>Nosotros</h2>
+            <p>Historia y misión del club.</p>
+        </section>
 
-            <div>
-                <input type="button" value="Quienes Somos">
-            </div>
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <p>Detalle de las clases y otros servicios ofrecidos.</p>
+        </section>
 
-            <div>
-                <input type="button" value="Contacto">
-            </div>
+        <section id="eventos">
+            <h2>Eventos</h2>
+            <p>Información sobre torneos y eventos.</p>
+        </section>
 
-        </div>
+        <section id="blog">
+            <h2>Blog</h2>
+            <p>Artículos y noticias sobre ajedrez.</p>
+        </section>
 
-        <div>
-            <h1>Ajedrez Nómada</h1>
-        </div>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
 
-        <div class="grid-container">
-            <h2>Galería 1</h2>
-            <div>Img1</div>
-            <div>Img2</div>
-            <div>Img3</div>
-        </div>
+    <footer>
+        <p>&copy; 2024 Club de Ajedrez. Todos los derechos reservados.</p>
+    </footer>
 
-        <div>
-            <img src="assets/chessmoon.jpg"></img>
-        </div>
-
-        <div>
-            <footer>hacking life</footer>
-        </div>
-    </div>
+    <script src="scripts/main.js"></script>
 </body>
-
 </html>
